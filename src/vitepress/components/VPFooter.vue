@@ -18,6 +18,12 @@ const { config } = useConfig()
     <p v-if="config.footer?.copyright" class="copyright">
       {{ config.footer.copyright }}
     </p>
+
+    <p v-if="config.footer?.recordNumber" class="record-number">
+      <VTLink class="link" :href="config.footer.recordNumber.link" no-icon>
+        {{ config.footer.recordNumber.text }}
+      </VTLink>
+    </p>
   </div>
 </template>
 
@@ -35,7 +41,8 @@ const { config } = useConfig()
 }
 
 .license,
-.copyright {
+.copyright
+.record-number {
   text-align: center;
   line-height: 20px;
   font-size: 12px;

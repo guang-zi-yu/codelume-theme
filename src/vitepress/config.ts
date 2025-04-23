@@ -61,7 +61,12 @@ export interface Config {
     }
 
     copyright?: string
-  }
+
+    recordNumber?: {
+      text: string
+      link: string
+    }
+}
 
   /**
    * Algolia configuration for the site search.
@@ -113,10 +118,10 @@ export interface ModalTranslations extends ScreenStateTranslations {
     cancelButtonText?: string
     cancelButtonAriaLabel?: string
   }
-  footer?: {
+footer?: {
     selectText?: string
     selectKeyAriaLabel?: string
-    navigateText?: string
+navigateText?: string
     navigateUpKeyAriaLabel?: string
     navigateDownKeyAriaLabel?: string
     closeText?: string
