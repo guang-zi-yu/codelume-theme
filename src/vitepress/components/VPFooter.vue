@@ -41,7 +41,7 @@ const { config } = useConfig()
 }
 
 .license,
-.copyright
+.copyright,
 .record-number {
   text-align: center;
   line-height: 20px;

@@ -18,7 +18,7 @@ importers:
         specifier: ^10.9.0
         version: 10.9.0(vue@3.4.27(typescript@5.4.5))
       body-scroll-lock:
-        specifier: ^4.0.0-beta.0
+        specifier: 4.0.0-beta.0
         version: 4.0.0-beta.0
       normalize.css:
         specifier: ^8.0.1
